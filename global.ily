@@ -16,6 +16,7 @@
 % }
 
 global = {
+    \set Staff.printKeyCancellation = ##f
     \override Score.NonMusicalPaperColumn.line-break-system-details 
         = #'((alignment-distances . (14)))
     \key g \major
